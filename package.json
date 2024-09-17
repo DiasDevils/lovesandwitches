@@ -1,7 +1,7 @@
 {
   "name": "terminal",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,10 +19,5 @@
     "node-pty": "^0.10.1",
     "node-static": "^0.7.11",
     "total4": "^0.0.97"
-  },
-  
-    "dependencies": {
-      "total4": "^4.0.0" 
-    }
-  
+  }
 }
