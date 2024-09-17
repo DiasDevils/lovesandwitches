@@ -22,7 +22,7 @@
   },
   
     "dependencies": {
-      "total4": "^4.0.0"  // or the correct version number
+      "total4": "^4.0.0" 
     }
   
 }
