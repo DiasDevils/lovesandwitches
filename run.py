@@ -1,17 +1,5 @@
-# import gspread
-# from google.oauth2.service_account import Credentials
-
-import os
-import json
+import gspread
 from google.oauth2.service_account import Credentials
-from googleapiclient.discovery import build
-
-# Load credentials from environment variable
-credentials_info = json.loads(os.environ['GOOGLE_APPLICATION_CREDENTIALS'])
-
-# Initialize Google Sheets API client using credentials_info
-credentials = Credentials.from_service_account_info(credentials_info)
-SHEET = build('sheets', 'v4', credentials=credentials)
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
